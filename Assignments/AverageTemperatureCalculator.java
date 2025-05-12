@@ -40,7 +40,7 @@ public class AverageTemperatureCalculator {
         }
         
         System.out.println("Number of days: " + temp.length);
-        System.out.printf("Average temperature for set number of days: " + (totalTemp/temp.length));
+        System.out.printf("Average temperature for set number of days: %.1f\n", (totalTemp/temp.length));
         System.out.println("Number of days temperature is above average: " + daysAboveAvg);
     }
 }
