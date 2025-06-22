@@ -8,7 +8,7 @@ public class Main {
         manager.addState("Step 2");
         manager.addState("Step 3");
 
-        System.out.println("Current " + manager.getCurrentState()); // Step 3
+        System.out.println("Current: " + manager.getCurrentState()); // Step 3
 
         manager.undo();
         System.out.println("After undo: " + manager.getCurrentState()); // Step 2
@@ -19,6 +19,8 @@ public class Main {
         manager.addState("Step 4"); // Should delete redo path
 
         manager.redo(); // Should say "nothing to redo"
+        
+        System.out.println(manager.getCurrentState()); // Step 4
 
 
     }
