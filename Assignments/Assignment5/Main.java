@@ -11,23 +11,18 @@ public class Main {
         shelter.enqueue("Dog");
         shelter.enqueue("Cat");
        
-
         System.out.println("\n--- Current Peek ---");
         System.out.println("Peek (Oldest Animal by arrival): "+ shelter.peek());
         System.out.println("Peek (Oldest Dog by Arrival): "+ shelter.peekDog());
         System.out.println("Peek (Oldest Cat by Arrival): "+ shelter.peekCat());
 
-        // shelter.printQueue();
-
         System.out.println("\n--- Dequeue Dog ---");
         System.out.println("Dequeued dog: "+ shelter.dequeueDog());
         System.out.println("Peek (Oldest Dog by Arrival):" + shelter.peekDog());
-        // shelter.printQueue();
 
         System.out.println("\n--- Dequeue Cat ---");
         System.out.println("Dequeued Cat: "+ shelter.dequeueCat());
         System.out.println("Peek (Oldest Cat by Arrival):" + shelter.peekCat());
-        // shelter.printQueue();
 
         // Dequeue all remaining animals
         System.out.println("\n--- Dequeue Any ---");

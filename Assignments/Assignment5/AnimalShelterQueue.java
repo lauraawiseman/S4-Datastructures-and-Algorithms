@@ -151,18 +151,3 @@ public class AnimalShelterQueue {
         System.out.println("The shelter queue has been successfully deleted.");
     };
 }
-
-    // Print Queue (used for testing only)
-
-//     public void printQueue() {
-//     if (isEmpty()) {
-//         System.out.println("The Queue is empty.");
-//         return;
-//     }
-//     System.out.println("\n --- Current Queue ---");
-//     for (int i = frontOfQueue; i <= rearOfQueue; i++) {
-//         System.out.println(queue[i]);
-//     }
-// }
-
-// }
